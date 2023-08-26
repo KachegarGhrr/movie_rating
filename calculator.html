@@ -1,0 +1,29 @@
+<html>
+    <header>
+        <title>Calulator</title>
+        <script>
+            let Chislo1=prompt("Введите первое число")
+            let Chislo2=prompt("Введите второе число")        
+            let znakOper = prompt('Введите знак операции(+, -, /, *)')
+            let reshenie
+            if (znakOper=='+'){
+                reshenie=parseInt(Chislo1)+parseInt(Chislo2)
+            }
+            if (znakOper=='-'){
+                reshenie=parseInt(Chislo1)-parseInt(Chislo2)
+            }
+            if (znakOper=='/'){
+                reshenie=parseInt(Chislo1)/parseInt(Chislo2)
+            }
+            if (znakOper=='*'){
+                reshenie=parseInt(Chislo1)*parseInt(Chislo2)
+            }
+
+            alert ("Ответ:" + reshenie)
+            console.log(Chislo1,znakOper,Chislo2,'=',reshenie)
+
+        </script>
+    </header>
+    <body>        
+    </body>
+</html>
